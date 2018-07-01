@@ -44,19 +44,19 @@ void loop() {
 
   // Evaluate the moisture sensor values and turn on valves as necessary
 
-  if (sensorValue1 >= 680) {
+  if (sensorValue1 >= 700) {
     digitalWrite(ValveOutput1, HIGH);
   }
 
-  if (sensorValue1 < 680) {
+  if (sensorValue1 < 700) {
     digitalWrite(ValveOutput1, LOW);
   }
 
-  if (sensorValue2 >= 680) {
+  if (sensorValue2 >= 700) {
     digitalWrite(ValveOutput2, HIGH);
   }
 
-  if (sensorValue2 < 680) {
+  if (sensorValue2 < 700) {
     digitalWrite(ValveOutput2, LOW);
   }
 
